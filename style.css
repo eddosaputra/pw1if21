@@ -1,0 +1,60 @@
+/* elemen selector */
+/* ref: colorhunt.co */
+body{
+    background-color: greenyellow;
+}
+
+/* class selector */
+.col{
+    width: 25%;
+    background-color: darkorange;
+    float: left;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: coral;
+}
+
+.rounded {
+    border-radius: 20px;
+    
+}
+
+.rounded-profil{
+
+    /* top-left top-right bottom-right bottom-left */
+    border-radius: 50% 10% 50% 10%;
+}
+
+.colo{
+    width: 33.33%;
+    background-color: darkorange;
+    float: left;
+}
+
+.mb-5{
+    margin-bottom: 150px;
+}
+
+.mt-5{
+    margin-top: 150px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-4{
+    width: 66.67%;
+    float: left;
+}
