@@ -56,5 +56,6 @@ body{
 
 .col-4{
     width: 66.67%;
+    background-color: darkorange;
     float: left;
 }
