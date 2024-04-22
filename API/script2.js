@@ -12,7 +12,7 @@ fetch('https://dummyjson.com/products')
                 <img src="${d.thumbnail}" class="rounded d-block w-100">
             </div>
             <div class="col-lg-6 p-2">
-                <h2>${d.title}</h2>
+                <h2>${d.title}</h2> 
                 ${d.description}
                 <br />Price : ${d.price}
                 <br />Disc : ${d.discountPercentage}
