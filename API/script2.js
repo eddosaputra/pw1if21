@@ -1,10 +1,10 @@
 let list = document.getElementById("list")
-fetch('https://dummyjson.com/products')
+fetch('https://api.themoviedb.org/3/movie/popular?api_key=3e60b3f5237c65aef8df7fd39a36a66d')
     .then(res => res.json())
     .then(data => {
         console.log(data)
 
-        for (const [i, d] of data.products.entries()) {
+        for (const [i, d] of data.resluts.entries()) {
 
             list.innerHTML += `<div class="col-lg-6">
         <div class="row">
